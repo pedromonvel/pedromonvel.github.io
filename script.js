@@ -17,6 +17,7 @@ close.addEventListener("click", () => {
     open.classList.remove("ssm:max-lg:opacity-0");
 });
 
+if (screen.width > 1024){
 cardsTech.forEach(card => {
     card.addEventListener('mousemove', (evt) => {
         const {layerX, layerY} = evt;
@@ -48,3 +49,4 @@ cardsTech.forEach(card => {
             rotateY(0)`;
     });
 });
+}
