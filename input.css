@@ -56,7 +56,9 @@
     }
 
     .technologies{
-        @apply flex flex-col justify-center items-center bg-[#82828266] border-2 border-solid w-full h-[407px] rounded-[20px] shadow-3xl ssm:max-md:w-[75vw];
+        @apply flex flex-col justify-center items-center bg-[#82828266] border-2 border-solid rounded-[20px] shadow-3xl ssm:max-md:w-[75vw];
+        height: 407px;
+        width: 315px;
         transition: box-shadow 0.2s, transform 0.2s;
     }
 

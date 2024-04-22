@@ -594,8 +594,6 @@ video {
 
 .technologies {
   display: flex;
-  height: 407px;
-  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -617,6 +615,8 @@ video {
 }
 
 .technologies{
+  height: 407px;
+  width: 315px;
   transition: box-shadow 0.2s, transform 0.2s;
 }
 
@@ -882,10 +882,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.resize {
-  resize: both;
 }
 
 .list-none {
